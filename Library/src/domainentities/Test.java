@@ -2,6 +2,7 @@ package domainentities;
 
 
 import constants.UserType;
+import domainentities.user.User;
 
 public class Test {
 public static void main(String[] args) {

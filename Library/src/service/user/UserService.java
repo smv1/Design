@@ -1,7 +1,7 @@
 package service.user;
 
 import constants.UserType;
-import domainentities.User;
+import domainentities.user.User;
 import exception.UserException;
 
 public interface UserService {

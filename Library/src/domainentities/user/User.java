@@ -1,4 +1,4 @@
-package domainentities;
+package domainentities.user;
 
 import java.util.Date;
 import java.util.UUID;
