@@ -1,6 +1,7 @@
 package service.library;
 
 import domainentities.Book;
+import domainentities.FineInfo;
 import exception.BookException;
 import exception.LibraryUserException;
 
@@ -31,4 +32,5 @@ public interface LibraryService {
 	void returnBook(String bookId,String studentId)throws LibraryUserException;
 	
 	void acceptFine(String studentId,int money)throws LibraryUserException;
+	FineInfo calculateFine(String studentId)throws LibraryUserException;
 }
